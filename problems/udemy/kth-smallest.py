@@ -1,9 +1,10 @@
+# kth smallest element in a binary search tree
+
 class Node:
     def __init__(self, value):
         self.value = value
         self.left = None
         self.right = None
-        
 
 class BinarySearchTree:
     def __init__(self):
@@ -50,9 +51,6 @@ class BinarySearchTree:
             return right_result
  
         return None
-        
-
-
 
 bst = BinarySearchTree()
 
@@ -67,7 +65,6 @@ bst.insert(8)
 print(bst.kth_smallest(1))  # Expected output: 2
 print(bst.kth_smallest(3))  # Expected output: 4
 print(bst.kth_smallest(6))  # Expected output: 7
-
 
 """
     EXPECTED OUTPUT:

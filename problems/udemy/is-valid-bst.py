@@ -1,9 +1,10 @@
+# is valid binary search tree
+
 class Node:
     def __init__(self, value):
         self.value = value
         self.left = None
         self.right = None
-        
 
 class BinarySearchTree:
     def __init__(self):
@@ -52,7 +53,6 @@ class BinarySearchTree:
             
         return True
 
-
 my_tree = BinarySearchTree()
 my_tree.insert(47)
 my_tree.insert(21)
@@ -64,8 +64,6 @@ my_tree.insert(82)
 
 print("BST is valid:")
 print(my_tree.is_valid_bst())
-
-
 
 """
     EXPECTED OUTPUT:
