@@ -1,7 +1,8 @@
 class Solution:
-    def missingNumber(self, nums: List[int]) -> int:
-        nums_set = set(nums)
-        
-        for i in range(len(nums) + 1):
-            if i not in nums_set:
-                return i
+    def countElements(self, arr: List[int]) -> int:
+        hash_set = set(arr)
+        count = 0
+        for x in arr:
+            if x + 1 in hash_set:
+                count += 1
+        return count
