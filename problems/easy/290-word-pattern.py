@@ -8,7 +8,7 @@ class Solution:
         s_map = {}
         p_map = {}
 
-        for i in range(len(s)):
+        for i in range(len(pattern)):
             if s_arr[i] not in s_map:
                 s_map[s_arr[i]] = i 
             if pattern[i] not in p_map:
