@@ -4,6 +4,8 @@ class Solution:
         ans = 0
         temp = 0
 
+        # another random change here
+
         for i in range(k):
             if s[i] in vowels:
                 temp += 1
