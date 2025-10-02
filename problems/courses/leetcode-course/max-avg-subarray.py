@@ -13,10 +13,3 @@ def findMaxAverage(nums: List[int], k: int) -> float:
         avg = max(avg, sum / k) 
 
     return avg
-
-        
-
-
-    
-        
-
