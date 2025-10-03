@@ -16,7 +16,8 @@ I want to create a helper method to delete node
 5. make sure to keep a dummy just in case head gets deleted
 
 # val = 5
-5 -> 2 -> 3 -> 5 -> 6 
+dummy -> 2 -> 3 -> 5 -> 6 
+              p         c
 """
 class Solution:
     def removeElements(self, head: Optional[ListNode], val: int) -> Optional[ListNode]:
@@ -27,8 +28,9 @@ class Solution:
         while curr:
             if curr.val == val:
                 prev.next = curr.next
-
-            prev = curr              
+            else:
+                prev = curr              
+                
             curr = curr.next
 
         return dummy.next
