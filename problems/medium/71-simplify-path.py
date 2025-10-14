@@ -1,6 +1,5 @@
 class Solution:
     def simplifyPath(self, path: str) -> str:
-
         # Initialize a stack
         stack = []
 
@@ -23,7 +22,3 @@ class Solution:
 
         final_str = "/" + "/".join(stack)
         return final_str
-                
-
-                    
-            
