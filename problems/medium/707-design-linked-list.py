@@ -94,11 +94,3 @@ class MyLinkedList:
             prev.next = None
         else:
             prev.next = node_to_delete.next 
-
-# your mylinkedlist object will be instantiated and called as such:
-# obj = mylinkedlist()
-# param_1 = obj.get(index)
-# obj.addathead(val)
-# obj.addattail(val)
-# obj.addatindex(index,val)
-# obj.deleteatindex(index)
