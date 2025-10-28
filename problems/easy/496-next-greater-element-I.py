@@ -3,8 +3,6 @@ ex:
 nums2 -> [5, 3, 6, 1 ,2]
 nums1 -> [3, 6]
 
-stack
-3 5
 """
 class Solution:
    def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
